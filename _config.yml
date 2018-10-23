@@ -1,0 +1,88 @@
+# Basic
+title: Louis Zhang
+subtitle: sky
+description: welcome to my blogpage
+# 头像里面的标题
+avatarTitle: Louis Zhang
+# 头像里面的描述
+avatarDesc: Louis的个人主页（博客）
+url: "https://yfzhang.top"
+
+# Comment
+# intensedebate_comments: true
+comment:
+    intensedebate_comments: true
+#    provider: duoshuo
+#    duoshuo:
+#     short_name: Louis Zhang
+
+# Social
+social:
+    weibo: CIMS_Zhang
+    weixing: YanfengZhang1993 
+    github: LouisZYF
+    # twitter: 
+    mail: zhangyanfeng527@gmail.com
+    csdn: 
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id:  
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+#ga:
+# id: UA-84134159-3   
+#  host: auto  
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/MengZheK/kangblog.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+
+highlighter: rouge
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: 
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}   
+    - {title: 留言, description: liuyan, url: '/liuyan'}
+    - {title: 资源, description: ziyuan, url: '/ziyuan'}
+    - {title: 关于我, description: about, url: '/about'}
+
+          
+    
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 20
+paginate_path: "page/:num/"
+
+
+
+
+
