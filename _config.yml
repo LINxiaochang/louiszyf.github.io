@@ -9,9 +9,9 @@ avatarDesc: Louis的个人主页（博客）
 url: "https://yfzhang.top"
 
 # Comment
-intensedebate_comments: true
-comment:
-    intensedebate_comments: true
+#intensedebate_comments: true
+#comment:
+#    intensedebate_comments: true
 #    provider: duoshuo
 #    duoshuo:
 #     short_name: Louis Zhang
