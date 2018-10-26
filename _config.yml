@@ -8,6 +8,8 @@ avatarTitle: Louis Zhang
 avatarDesc: Louis的个人主页（博客）
 url: "https://yfzhang.top"
 
+
+markdown: kramdown
 # Comment
 #intensedebate_comments: true
 #comment:
